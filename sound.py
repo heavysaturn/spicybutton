@@ -174,4 +174,4 @@ def play_note(note_name, duration):
     freq = NOTES.get(note_name.lower(), 440.0)
 
     # Play the note!
-    cpx.play_note(freq, duration)
+    cpx.play_tone(freq, duration)
