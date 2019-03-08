@@ -175,3 +175,13 @@ def play_note(note_name, duration):
 
     # Play the note!
     cpx.play_tone(freq, duration)
+
+
+
+
+# Play an Am7
+# sound.play_note("A4", 0.03)
+# sound.play_note("E5", 0.05)
+# sound.play_note("Ab5", 0.02)
+# sound.play_note("C#6", 0.03)
+# sound.play_note("C#6", 0.07)
