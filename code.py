@@ -1,5 +1,5 @@
 import time
-from random import random
+from random import random, randint
 
 import board
 from adafruit_circuitplayground.express import cpx
@@ -62,5 +62,6 @@ def play_file(filename):
 while True:
 
     if not button.value:
-        color = 0xFF0000
-        play_file("electrons.wav")
+        selection = randint(1, 32)
+        filename = "sfx/spicybutton{0}.wav".format(selection)
+        play_file("spicybutton1.wav")
